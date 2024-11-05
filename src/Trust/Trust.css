@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrap3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+    color: #272D38;
+    flex-wrap: wrap;
+
+    p {
+        opacity: 0.6;
+    }
+}
+
+.imgs {
+    max-width: 900px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 115px;
+    background-color: 5px solid rgb(231, 231, 246);
+}

@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrap2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    color: #272D38;
+    flex-wrap: wrap;
+
+    @media (max-width: 1000px) {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.text1 {
+    button {
+        background-color: rgb(107, 107, 171);
+        color: #fff;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    p {
+        padding: 25px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}

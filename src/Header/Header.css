@@ -1,0 +1,29 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    a {
+        text-decoration: none;
+        color: #272D38;
+    }
+
+    @media (max-width: 900px) {
+        display: none;
+    }
+}
+
+.wrap1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    color: #272D38;
+    flex-wrap: wrap;
+}

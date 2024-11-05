@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(187, 185, 224);
+  background: linear-gradient(114deg, rgba(187, 185, 224, 1) 0%, rgba(228, 228, 237, 1) 21%, rgba(255, 255, 255, 1) 100%);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
